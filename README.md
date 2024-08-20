@@ -75,20 +75,20 @@ L'application utilise Spring Security pour sécuriser les endpoints et permettre
 
 Voici une liste des principaux endpoints exposés par l'application :
 
-- POST /api/v1/account/users : Inscription d'un nouvel utilisateur.
-- POST /api/v1/auth/login : Authentification de l'utilisateur et génération d'un token JWT.
-- GET /api/v1/account/users : Accès aux informations des utilisateurs (réservé aux administrateurs).
-- POST /api/v1/auth/login-validate-otp : Validation de code OTP.
-- POST /api/v1/auth/reset-password : Demande de réinitialisation de mot de passe.
+- **POST /api/v1/account/users** : Inscription d'un nouvel utilisateur.
+- **POST /api/v1/auth/login** : Authentification de l'utilisateur et génération d'un token JWT.
+- **GET /api/v1/account/users** : Accès aux informations des utilisateurs (réservé aux administrateurs).
+- **POST /api/v1/auth/login-validate-otp** : Validation de code OTP.
+- **POST /api/v1/auth/reset-password** : Demande de réinitialisation de mot de passe.
 
 ## Technologies utilisées
 
-Spring Boot : Cadre principal pour le développement de l'application.
-Spring Security : Gestion de l'authentification et de l'autorisation.
-JWT : Gestion des tokens pour l'authentification.
-Hibernate : ORM utilisé pour la gestion des données persistantes.
-MySQL : Base de données.
-Swagger : Documentation et Exploration des APIs.
+- **Spring Boot** : Cadre principal pour le développement de l'application.
+- **Spring Security** : Gestion de l'authentification et de l'autorisation.
+- **JWT** : Gestion des tokens pour l'authentification.
+- **Hibernate** : ORM utilisé pour la gestion des données persistantes.
+- **MySQL** : Base de données.
+- **Swagger** : Documentation et Exploration des APIs.
   
 ## Contribution
 
