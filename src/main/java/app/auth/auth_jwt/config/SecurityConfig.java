@@ -29,7 +29,7 @@ public class SecurityConfig {
              .requestMatchers(authorizedUrl)
              .permitAll()
              .anyRequest()
-             .permitAll()
+             .authenticated()
              .and()
              .sessionManagement()
              .sessionCreationPolicy( SessionCreationPolicy.STATELESS)
