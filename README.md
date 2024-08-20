@@ -9,7 +9,7 @@ L'application utilise Spring Security pour sécuriser les endpoints et permettre
 - **Autorisation des utilisateurs** : Gestion des rôles et des permissions avec Spring Security pour restreindre l'accès aux différentes ressources en fonction des rôles.
 - **Enregistrement des utilisateurs** : API REST pour l'inscription des nouveaux utilisateurs avec validation des données.
 - **Gestion des rôles** : Attribution des rôles aux utilisateurs (ex. ADMIN, USER) avec des privilèges spécifiques pour chaque rôle.
-- **Génération de code OTP** : Génération de code OTP(One-Time Password) pour la validation d'utilisateur lors de la connexion, la réinitialisation de mot de passe, etc.
+- **Génération de code OTP** : Gestion de l'authentification à deux facteurs ou la vérification des utilisateurs via des OTPs(One-Time Password) envoyés par email.
 - **Réinitialisation du mot de passe** : Implémentation d'un système de réinitialisation de mot de passe via email.
 - **Documentation Swagger** : Implémentation de Swagger pour une bonne documentation et une bonne exploration des APIs.
 
