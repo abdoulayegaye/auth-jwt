@@ -37,13 +37,13 @@ L'application utilise Spring Security pour sécuriser les endpoints et permettre
    
 ## Configuration
 
-    L'application utilise un fichier application.properties ou application.yml pour la configuration. 
-    Les paramètres principaux à configurer sont :
+L'application utilise un fichier application.properties ou application.yml pour la configuration. 
+Les paramètres principaux à configurer sont :
     
-    Base de données : Configurez la connexion à la base de données (par défaut, MySQL est utilisé).
-    Sécurité : Configurez les paramètres de sécurité comme le secret JWT, l'expiration des tokens, etc.
-    Email : Configurez les propriétés pour l'envoi d'emails si la fonctionnalité de réinitialisation de mot de passe est activée.
-    Exemple de configuration (application.properties) :
+Base de données : Configurez la connexion à la base de données (par défaut, MySQL est utilisé).
+Sécurité : Configurez les paramètres de sécurité comme le secret JWT, l'expiration des tokens, etc.
+Email : Configurez les propriétés pour l'envoi d'emails si la fonctionnalité de réinitialisation de mot de passe est activée.
+Exemple de configuration (application.properties) :
 
     # MySQL settings
     spring.datasource.url=jdbc:mysql://localhost:3306/auth_jwt_db
