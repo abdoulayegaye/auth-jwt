@@ -3,6 +3,7 @@
 Ce projet est une application Spring Boot conçue pour gérer l'authentification et l'autorisation des utilisateurs. 
 L'application utilise Spring Security pour sécuriser les endpoints et permettre une gestion efficace des rôles et des permissions des utilisateurs.
 
+![Logo de l'application](src/main/resources/static/assets/images/image.png)
 ## Fonctionnalités
 
 - **Authentification des utilisateurs** : Implémentation de l'authentification basée sur JWT (JSON Web Token) pour sécuriser les API REST.
