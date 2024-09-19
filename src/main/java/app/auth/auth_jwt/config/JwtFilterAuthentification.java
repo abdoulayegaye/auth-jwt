@@ -61,7 +61,7 @@ public class JwtFilterAuthentification extends OncePerRequestFilter {
                                             .builder()
                                             .error(true)
                                             .resultCode("403")
-                                            .resultMessage("Tu essaies d'accéder à des ressources non autorisées")
+                                            .resultMessage("Vous essayez d'accéder à des ressources non autorisées")
                                             .build()
                                     );
                             response.setStatus(HttpStatus.FORBIDDEN.value());
@@ -74,6 +74,5 @@ public class JwtFilterAuthentification extends OncePerRequestFilter {
             }
             filterChain.doFilter(request,response);
         }
-
     }
 }

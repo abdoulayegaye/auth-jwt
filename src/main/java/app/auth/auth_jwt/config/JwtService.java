@@ -78,7 +78,7 @@ public class JwtService {
               //  .signWith(this.getPrivateKey(), SignatureAlgorithm.RS256) // PRIVATE KEY
                 .compact();
     }
-    public String generateToken( UserDetails userDetails)  {
+    public String generateToken(UserDetails userDetails)  {
         try {
             return generateToken(new HashMap<>(),userDetails);
         } catch (Exception e) {
@@ -104,6 +104,7 @@ public class JwtService {
         }
         return null;
     }
+
     public boolean isBearer(HttpServletRequest request){
         String tokenHeader = request.getHeader(authorization);
         if(tokenHeader != null){

@@ -12,6 +12,4 @@ public @interface AuthAction {
     String abilityName();
     String groupCode() ;
     String groupName() ;
-
-
 }

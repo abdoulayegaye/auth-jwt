@@ -32,7 +32,7 @@ public class SecurityConfig {
              .authenticated()
              .and()
              .sessionManagement()
-             .sessionCreationPolicy( SessionCreationPolicy.STATELESS)
+             .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
              .and()
              .exceptionHandling()
              .authenticationEntryPoint((request, response, accessDeniedException) -> {

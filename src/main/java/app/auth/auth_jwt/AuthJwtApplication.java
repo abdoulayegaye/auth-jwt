@@ -25,7 +25,7 @@ public class AuthJwtApplication {
 	@Bean
 	CommandLineRunner start(){
 		return args -> {
-			System.out.println("http://localhost:8080");
+			System.out.println("http://localhost:8085");
 			Map<String, Object> variables = new HashMap<>();
 			variables.put("fullName", "Abdoulaye GAYE");
 			variables.put("message", "Welcome to our APP!");

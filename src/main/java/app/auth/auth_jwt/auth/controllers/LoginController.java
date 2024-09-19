@@ -21,6 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 @Tag(name = LoginAbility._ABILITY_TITLE, description = LoginAbility._ABILITY_DESC)
 public class LoginController {
+
     final AuthService authService;
     @PostMapping("login")
     @Operation(summary = LoginAbility._LOGIN_NAME, description = LoginAbility._LOGIN_NAME)
